@@ -11,6 +11,8 @@
 ## devs
 
 ```bash
+$ java -version ## must java 17
+$ mvn clean
 $ mvn dependency:tree
 $ mvn spring-boot:run
 
