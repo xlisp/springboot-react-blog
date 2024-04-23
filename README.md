@@ -15,10 +15,12 @@ $ java -version ## must java 17
 $ mvn clean
 
 $ mvn dependency:tree
-$ gradle dependencies ## like Android，install dependencies
+## or => `$ gradle dependencies` ## like Android，install dependencies
 
-$ mvn spring-boot:run
+$ mvn spring-boot:run ## or gradle bootRun
 
+$ curl localhost:8080
+ 
 ```
 
 ## docs
